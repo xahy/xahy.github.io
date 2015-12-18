@@ -1,0 +1,130 @@
+h2 {
+	font-family: BookAntiqua, Georgia;
+	font-weight: 100;
+	font-size: 21px;
+	color: #A5A5A5;
+	letter-spacing: 1.1px;
+	line-height: 25px;
+	text-align: center;
+	margin-top:70px;
+	margin-bottom:100px;
+	position: relative;
+}
+h2:after {
+	content: "";
+	  width: 60px;
+	  height: 2px;
+	  background: #eee;
+	  position: absolute;
+	  bottom: -30px;
+	  left: 50%;
+	  margin-left: -20px;
+
+
+}
+h3 {
+	font-size: 16px;
+	color: #646464;
+	line-height: 25px;
+}
+section {
+	overflow: hidden;
+}
+#sec0 {
+	height: 100vh;
+	width: 100%;
+	background: #91BCE1 url('../img/cover3.jpg') center center no-repeat;
+	background-size: cover;
+}
+#sec1 {
+	min-height: 500px;
+	transition: height 0.4s ease-in;
+}
+.browser {
+	box-shadow: 7px 7px 35px 0px rgba(0,0,0,0.04);
+}
+.browserbody {
+	background: #FFFFFF;
+	
+	width: 100%;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.addressbar {
+  width: 100%;
+  height: 45px;
+  background: #F3F3F3 url(../img/browser.png) 19px 16px no-repeat;
+  border-radius: 8px 8px 0px 0px;
+  background-size: 60px;
+
+}
+#sec2 {
+	background: #E06D6F;
+	min-height: 500px;
+	width: 100%;
+}
+#sec2 h2 {
+	color:#fff;
+}
+#pp {
+	background: #FFFFFF url('../img/xahy.jpg') center center no-repeat;
+	background-size: 88px;
+	box-shadow: 7px 7px 16px 0px rgba(0,0,0,0.12);
+	border-radius: 50%;
+	overflow: hidden;
+	border: 7px solid rgba(121,177,227,0.33);
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+}
+.anim {
+	visibility: hidden;
+}
+#headline {
+	opacity: 0.96;
+	font-family: Helvetica Neue;
+	font-weight: 100;
+	font-size: 37px;
+	letter-spacing: 1.1px;
+	color: #FFFFFF;
+	line-height: 53px;
+	text-align: center;
+}
+.animated { visibility: visible !important; }
+.cont p{
+	opacity: 0.7;
+	font-size: 14px;
+	color: #929292;
+	line-height: 25px;
+}
+#get_in_touch_form {
+	margin-bottom: 60px;
+}
+#get_in_touch_form .control-label{
+	  color: rgba(255, 255, 255, 0.64);
+}
+
+#get_in_touch_form .form-control{
+	background-color: rgba(255,255,255,0.4);
+	border: none;
+	color:#fff;
+	transition: background-color 0.2s ease-in;
+}
+#get_in_touch_form .form-control:focus {
+	border-color: rgba(255, 255, 255, 0.63);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(176, 33, 36, 0.19);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(176, 33, 36, 0.19);
+	background-color: rgba(255, 255, 255, 0.74);
+}
+#gettouchbtn {
+	border: none;
+	background: none;
+	color: rgba(255, 255, 255, 0.64);
+	outline: none;
+	padding-left: 0px;
+	transition:color 0.2s ease-in-out;
+	padding-right: 0px;
+}
+#gettouchbtn:hover {
+	color:#fff;
+}
