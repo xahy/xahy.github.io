@@ -1,3 +1,6 @@
+:focus {
+	outline: none;
+}
 h2 {
 	font-family: BookAntiqua, Georgia;
 	font-weight: 100;
@@ -58,12 +61,12 @@ section {
   background-size: 60px;
 
 }
-#sec2 {
+#sec1 {
 	background: #E06D6F;
 	min-height: 500px;
 	width: 100%;
 }
-#sec2 h2 {
+#sec1 h2 {
 	color:#fff;
 }
 #pp {
@@ -128,3 +131,13 @@ section {
 #gettouchbtn:hover {
 	color:#fff;
 }
+.slider {
+	position:relative;
+}
+
+.slider-arrow {
+	font-size:23px;
+}
+
+
+

@@ -34,3 +34,18 @@ function isScrolledIntoView(elem)
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
+
+$('.slider').slick({
+	infinite:false,
+	dots:false,
+	arrows:false,
+	speed:200,
+	slidesToShow: 1
+});
+
+
+$('.slider-arrow').on('click', function(e){
+	e.preventDefault();
+	var func = $(this).data('func');
+	$('.slider').slick(func);
+});
