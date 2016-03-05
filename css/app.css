@@ -1,6 +1,9 @@
 :focus {
 	outline: none;
 }
+.italic {
+	font-style: italic;
+}
 h2 {
 	font-family: BookAntiqua, Georgia;
 	font-weight: 100;
@@ -97,7 +100,7 @@ section {
 .cont p{
 	opacity: 0.7;
 	font-size: 14px;
-	color: #929292;
+	color: #585656;
 	line-height: 25px;
 }
 #get_in_touch_form {
@@ -131,12 +134,17 @@ section {
 #gettouchbtn:hover {
 	color:#fff;
 }
+.comp-name {
+	color: #929292;
+	font-style: italic;
+}
 .slider {
 	position:relative;
 }
 
 .slider-arrow {
 	font-size:23px;
+	color: #B3B3B3;
 }
 
 

@@ -40,7 +40,8 @@ $('.slider').slick({
 	dots:false,
 	arrows:false,
 	speed:200,
-	slidesToShow: 1
+	slidesToShow: 1,
+	adaptiveHeight: true
 });
 
 
