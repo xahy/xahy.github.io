@@ -3,6 +3,9 @@ $(window).scroll(function (event) {
    	delegateScroll();
 });
 
+document.addEventListener("touchmove", delegateScroll, false);
+document.addEventListener("scroll", delegateScroll, false);
+
 delegateScroll();
 function delegateScroll() {
 	$('section').each(function(index){
