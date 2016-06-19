@@ -43,7 +43,7 @@ section {
 	background-size: cover;
 }
 #sec1 {
-	min-height: 500px;
+	min-height: 470px;
 	transition: height 0.4s ease-in;
 }
 .browser {
@@ -147,6 +147,23 @@ section {
 }
 .promo-pic {
 	text-align: center;
+}
+.social-links {
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	 align-items: stretch;
+	 height: 300px;
+}
+.social-link {
+	font-size: 70px;
+	color:#fff;
+}
+.social-link:focus {
+	color:#fff;
+}
+.social-link:hover {
+	color:rgba(255, 255, 255, 0.56);
 }
 
 
